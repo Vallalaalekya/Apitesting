@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-05T09:50:53 IST" name="Default suite" finished-at="2024-10-05T09:51:08 IST" duration-ms="14759">
+    <groups>
+    </groups>
+    <test started-at="2024-10-05T09:50:53 IST" name="Default test" finished-at="2024-10-05T09:51:08 IST" duration-ms="14759">
+      <class name="APITesting.Dummyjson">
+        <test-method signature="addproduct()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:50:53 IST" name="addproduct" finished-at="2024-10-05T09:50:56 IST" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="currentauthuser()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:50:56 IST" name="currentauthuser" finished-at="2024-10-05T09:50:56 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error on token ".", delete this token
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error on token ".", delete this token
+
+at APITesting.Dummyjson.currentauthuser(Dummyjson.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentauthuser -->
+        <test-method signature="deletproduct()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:50:56 IST" name="deletproduct" finished-at="2024-10-05T09:50:57 IST" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletproduct -->
+        <test-method signature="getallproductscategory()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:50:57 IST" name="getallproductscategory" finished-at="2024-10-05T09:50:58 IST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallproductscategory -->
+        <test-method signature="getproductbycategory()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:50:58 IST" name="getproductbycategory" finished-at="2024-10-05T09:50:59 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getproductbycategory -->
+        <test-method signature="getproductbycategorylist()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:50:59 IST" name="getproductbycategorylist" finished-at="2024-10-05T09:51:00 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getproductbycategorylist -->
+        <test-method signature="getproducts()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:51:00 IST" name="getproducts" finished-at="2024-10-05T09:51:01 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getproducts -->
+        <test-method signature="limitandskip()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:51:01 IST" name="limitandskip" finished-at="2024-10-05T09:51:02 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limitandskip -->
+        <test-method signature="loginauthorization()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:51:02 IST" name="loginauthorization" finished-at="2024-10-05T09:51:03 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginauthorization -->
+        <test-method signature="refreshtoken()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:51:03 IST" name="refreshtoken" finished-at="2024-10-05T09:51:04 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshtoken -->
+        <test-method signature="searchproduct()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:51:04 IST" name="searchproduct" finished-at="2024-10-05T09:51:05 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="singleproduct()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:51:05 IST" name="singleproduct" finished-at="2024-10-05T09:51:06 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleproduct -->
+        <test-method signature="sortproducts()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:51:06 IST" name="sortproducts" finished-at="2024-10-05T09:51:07 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortproducts -->
+        <test-method signature="updateproduct()[pri:0, instance:APITesting.Dummyjson@21282ed8]" started-at="2024-10-05T09:51:07 IST" name="updateproduct" finished-at="2024-10-05T09:51:08 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateproduct -->
+      </class> <!-- APITesting.Dummyjson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
